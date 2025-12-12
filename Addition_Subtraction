@@ -1,1 +1,24 @@
+#This is part 2
+#Name: Justine Sanchez
+#Collaborated with: None
+
+choice = input("Do you want to do addition or subtraction? ")
+
+if choice == "addition":
+    a = input("Enter value of a: ")
+    b = input("Enter value of b: ")
+    a = int(a)
+    b = int(b)
+    result = (a+b)
+    result = str(result)
+    print("The solution is "+ result)
+
+else:
+    a = input("Enter value of a: ")
+    b = input("Enter value of b: ")
+    a = int(a)
+    b = int(b)
+    result = (a-b)
+    result = str(result)
+    print("The solution is " + result)
 
